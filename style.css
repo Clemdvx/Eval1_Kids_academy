@@ -46,7 +46,6 @@ h2,h3,h4,h5,h6{
   }
   /*main*/
   .main{
-    
     background-color: #dddddd;
   }
   .container-fluid h1{
@@ -55,7 +54,6 @@ h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
     color: black;
   }
- 
   .carousel-indicators li{
     background-color: black;
   }
@@ -75,11 +73,11 @@ h2,h3,h4,h5,h6{
   .bouton{
     border-radius: 4px;
     border: none;
-  text-align: center;
-  background-color: #FE277E !important;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+    text-align: center;
+    background-color: #FE277E !important;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
   }
   .bouton span {
     cursor: pointer;
