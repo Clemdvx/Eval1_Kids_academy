@@ -1,68 +1,65 @@
-/* titre */
 h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
   }
-
-  /* paragraphe */
-  p,span,div,a,li{
+span,div,a,li{
     font-family: 'Source Sans Pro', sans-serif;
   }
-  html{
+html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   /*Header*/
-  header{
+header{
     height: 100px;
     padding: 10px 0;
     width: 100%;
   }
-  .logo h4{
+.logo h4{
     color: white;
     letter-spacing: 3px;
     font-size: 30px;
     font-weight: bold
   }
-  .bg-dark{
+.bg-dark{
     background-color:#132c33 !important;
     z-index: 1;
     font-size: 14px;
   }
-  .nav-link{
+.nav-link{
     color:#fff !important
   }
-  .nav-link:hover:not(.active a){
+.nav-link:hover:not(.active a){
     color:#51c4d3 !important;
     font-size: 14.5px;
   }
-  .active a{
+.active a{
     color:#126e82 !important;
     font-weight: bold;
     cursor: default;
   }
-  .modal-title{
+.modal-title{
     margin: 0 auto;
   }
-  /*main*/
-  .main{
+  /*Corps*/
+.main{
     background-color: #dddddd;
   }
-  .container-fluid h1{
+.container-fluid h1{
     padding: 50px;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: black;
   }
-  .carousel-indicators li{
+  /*Diaporama*/
+.carousel-indicators li{
     background-color: black;
   }
-  .carousel-indicators .active{
+.carousel-indicators .active{
     background-color: #126e82;
   }
-
   /* Footer */
-  .footer {
+.footer {
     margin: 30px auto;
     width: 90%;
     height: 1px;
